@@ -6,12 +6,14 @@ my first program in tcl
 It's  simple
 }
 
-#单行注释
+puts "version $tcl_version"
+
+
 puts stdout "Hello World"
 
 puts "Hello\nWorld"
 
-puts $env(PATH)  ;#output enviroment 行内注释
+puts $env(PATH)  ;#output enviroment
 
 
 puts $tcl_precision

@@ -9,11 +9,13 @@ It's  simple
 puts "version $tcl_version"
 
 
+#单行注释
 puts stdout "Hello World"
 
 puts "Hello\nWorld"
 
 puts $env(PATH)  ;#output enviroment
+puts $env(PATH)  ;#output enviroment 行内注释
 
 
 puts $tcl_precision
